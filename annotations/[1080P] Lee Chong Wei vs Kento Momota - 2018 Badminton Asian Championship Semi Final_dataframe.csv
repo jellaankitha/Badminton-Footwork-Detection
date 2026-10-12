@@ -1,0 +1,996 @@
+start,end,label,location
+849,869,Short Serve,Upper Half
+871,907,Lift,Lower Half
+909,927,Drop Shot,Upper Half
+929,953,Overhead Cross-court Net Shot,Lower Half
+955,989,Defensive Lift,Upper Half
+990,1002,Smash(Full-length),Lower Half
+1355,1381,Soft Net Shot Return of Serve,Upper Half
+1383,1419,Lift,Lower Half
+1421,1435,Drop Shot,Upper Half
+1435,1459,Overhead Cross-court Net Shot,Lower Half
+1461,1495,Lift,Upper Half
+1497,1517,Drop Shot,Lower Half
+1517,1541,Lift,Upper Half
+1541,1553,Net Kill,Lower Half
+1553,1575,Soft Net Shot,Upper Half
+1575,1603,Soft Net Shot,Lower Half
+1603,1647,Lift,Upper Half
+1647,1673,Drop Shot,Lower Half
+1673,1703,Underhead Cross-court Net Shot,Upper Half
+1705,1747,Lift,Lower Half
+1747,1782,Drive,Upper Half
+2300,2320,Short Serve,Upper Half
+2322,2346,Soft Net Shot Return of Serve,Lower Half
+2348,2372,Soft Net Shot,Upper Half
+2374,2440,Lift,Lower Half
+2440,2454,Smash(Full-length),Upper Half
+2456,2480,Lift Return of Smash,Lower Half
+2484,2514,Soft Net Shot,Upper Half
+2514,2554,Lift,Lower Half
+2554,2578,Drop Shot,Upper Half
+2578,2598,Net Shot,Lower Half
+2600,2610,Net Kill,Upper Half
+3376,3412,Lift Return of Serve,Lower Half
+3414,3430,Drop Shot,Upper Half
+3430,3458,Overhead Cross-court Net Shot,Lower Half
+3460,3484,Short Serve,Upper Half
+3486,3512,Soft Net Shot,Lower Half
+3513,3582,Lift,Upper Half
+5215,5248,Lift,Lower Half
+5249,5267,Drop Shot,Upper Half
+5269,5281,Lift,Lower Half
+5283,5305,Drop Shot,Upper Half
+5305,5325,Soft Net Shot,Lower Half
+5331,5359,Net Shot,Upper Half
+5361,5385,Net Shot,Lower Half
+5387,5415,Underhead Cross-court Net Shot,Upper Half
+5417,5465,Lift,Lower Half
+5465,5485,Drop Shot,Upper Half
+5487,5505,Soft Net Shot,Lower Half
+5511,5545,Lift,Upper Half
+6134,6174,Lift,Lower Half
+6174,6196,Drop Shot,Upper Half
+6198,6220,Soft Net Shot,Lower Half
+6224,6260,Underhead Cross-court Net Shot,Upper Half
+6262,6274,Drive,Lower Half
+6276,6296,Overhead Cross-court Net Shot,Upper Half
+6300,6320,Soft Net Shot,Lower Half
+6325,6351,Soft Net Shot,Upper Half
+6353,6413,Lift,Lower Half
+6415,6451,High Clear,Upper Half
+6453,6469,Drop Shot,Lower Half
+6471,6499,Underhead Cross-court Net Shot,Upper Half
+6501,6539,Lift,Lower Half
+6541,6562,Drive,Upper Half
+6564,6592,Net Shot,Lower Half
+6594,6624,Soft Net Shot,Upper Half
+6624,6674,Lift,Lower Half
+6676,6704,Drive,Upper Half
+6706,6728,Drop Shot,Lower Half
+6728,6760,Lift,Upper Half
+6762,6786,Drop Shot,Lower Half
+6788,6820,Net Shot,Upper Half
+6822,6846,Overhead Cross-court Net Shot,Lower Half
+6852,6880,Underhead Cross-court Net Shot,Upper Half
+6884,6938,Lift,Lower Half
+6940,6960,Drop Shot,Upper Half
+6962,6988,Soft Net Shot,Lower Half
+6992,7026,Lift,Upper Half
+7028,7050,Drive,Lower Half
+7054,7086,Net Shot,Upper Half
+7086,7114,Net Shot,Lower Half
+7116,7142,Net Shot,Upper Half
+7142,7202,Lift,Lower Half
+7946,7976,Flat Serve,Upper Half
+7976,7992,Smash Return of Serve,Lower Half
+8507,8523,Short Serve,Lower Half
+8525,8563,Lift Return of Serve,Upper Half
+8565,8579,Drive,Lower Half
+8581,8603,Overhead Cross-court Net Shot,Upper Half
+8605,8627,Soft Net Shot,Lower Half
+8629,8659,Soft Net Shot,Upper Half
+8661,8693,Lift,Lower Half
+8695,8713,Drop Shot,Upper Half
+8715,8737,Soft Net Shot,Lower Half
+8741,8781,Lift,Upper Half
+8782,8790,Short Smash,Lower Half
+8790,8818,Drive Return of Smash,Upper Half
+8820,8846,Soft Net Shot,Lower Half
+8848,8886,Lift,Upper Half
+8888,8904,Drop Shot,Lower Half
+8912,8932,Net Shot,Upper Half
+9491,9509,Short Serve,Lower Half
+9511,9549,Lift Return of Serve,Upper Half
+9551,9585,High Clear,Lower Half
+9587,9613,Drive,Upper Half
+9615,9637,Net Shot,Lower Half
+9643,9669,Overhead Cross-court Net Shot,Upper Half
+9671,9715,Lift,Lower Half
+9717,9739,Drop Shot,Upper Half
+9741,9763,Soft Net Shot,Lower Half
+9767,9791,Net Shot,Upper Half
+9793,9841,Lift,Lower Half
+10655,10687,Lift,Lower Half
+10689,10709,Drive,Upper Half
+10711,10721,Short Smash,Lower Half
+10723,10751,Drop Shot Return of Smash,Upper Half
+10753,10779,Soft Net Shot,Lower Half
+10781,10807,Net Shot,Upper Half
+10807,10829,Soft Net Shot,Lower Half
+10831,10879,Lift,Upper Half
+10881,10918,High Clear,Lower Half
+10920,10935,Smash(Full-length),Upper Half
+10937,10963,Drop Shot Return of Smash,Lower Half
+10965,11006,Lift,Upper Half
+11008,11022,Drive,Lower Half
+11602,11620,Short Serve,Lower Half
+11622,11654,Lift Return of Serve,Upper Half
+11656,11668,Drive,Lower Half
+11670,11690,Overhead Cross-court Net Shot,Upper Half
+11693,11713,Soft Net Shot,Lower Half
+11715,11741,Soft Net Shot,Upper Half
+11743,11775,Lift,Lower Half
+11774,11798,Flat Clear,Upper Half
+11800,11814,Drive,Lower Half
+11818,11844,Overhead Cross-court Net Shot,Upper Half
+11848,11880,Lift,Lower Half
+11882,11904,Overhead Cross-court Net Shot,Upper Half
+11906,11930,Overhead Cross-court Net Shot,Lower Half
+11932,11962,Underhead Cross-court Net Shot,Upper Half
+11963,12015,Lift,Lower Half
+12015,12029,Smash(Full-length),Upper Half
+12687,12731,Clear Return of Serve,Lower Half
+12733,12770,High Clear,Upper Half
+12771,12787,Drop Shot,Lower Half
+12791,12817,Underhead Cross-court Net Shot,Upper Half
+12819,12855,Lift,Lower Half
+12856,12882,Overhead Cross-court Net Shot,Upper Half
+12883,12911,Net Shot,Lower Half
+12912,12951,Lift,Upper Half
+12952,12989,High Clear,Lower Half
+12991,13008,Smash(Full-length),Upper Half
+13008,13035,Drop Shot Return of Smash,Lower Half
+13037,13074,Lift,Upper Half
+13075,13087,Short Smash,Lower Half
+14235,14262,Soft Net Shot Return of Serve,Upper Half
+14265,14289,Soft Net Shot,Lower Half
+14292,14344,Lift,Upper Half
+14346,14361,Drive,Lower Half
+14363,14389,Soft Net Shot,Upper Half
+14391,14417,Lift,Lower Half
+14419,14451,Lift,Upper Half
+14453,14463,Short Smash,Lower Half
+14467,14499,Drop Shot Return of Smash,Upper Half
+14501,14548,Lift,Lower Half
+14550,14562,Short Smash,Upper Half
+14564,14572,Drop Shot Return of Smash,Lower Half
+15918,15948,Lift Return of Serve,Upper Half
+15952,15966,Drive,Lower Half
+15968,15994,Overhead Cross-court Net Shot,Upper Half
+15997,16044,Lift,Lower Half
+16044,16054,Short Smash,Upper Half
+16056,16086,Drop Shot Return of Smash,Lower Half
+16088,16116,Net Shot,Upper Half
+16118,16168,Lift,Lower Half
+16170,16192,Overhead Cross-court Net Shot,Upper Half
+16194,16220,Soft Net Shot,Lower Half
+16222,16287,Lift,Upper Half
+16287,16301,Drive,Lower Half
+16305,16317,Net Shot,Upper Half
+16319,16333,Drive,Lower Half
+16335,16351,Drive,Upper Half
+16353,16377,Soft Net Shot,Lower Half
+16381,16409,Lift,Upper Half
+16411,16419,Smash(Full-length),Lower Half
+16421,16449,Lift Return of Smash,Upper Half
+16451,16471,Soft Net Shot,Lower Half
+16475,16505,Lift,Upper Half
+16507,16525,Drive,Lower Half
+16527,16559,Net Shot,Upper Half
+16561,16581,Soft Net Shot,Lower Half
+16585,16643,Lift,Upper Half
+16645,16684,High Clear,Lower Half
+16686,16696,Short Smash,Upper Half
+17674,17686,Short Serve,Lower Half
+17688,17720,Soft Net Shot,Upper Half
+17722,17746,Soft Net Shot,Lower Half
+18184,18204,Short Serve,Upper Half
+18208,18234,Overhead Cross-court Net Shot,Lower Half
+18236,18264,Net Shot,Upper Half
+18264,18318,Lift,Lower Half
+18318,18330,Short Smash,Upper Half
+18332,18358,Lift Return of Smash,Lower Half
+18360,18382,Net Shot,Upper Half
+18384,18394,Drive,Lower Half
+18396,18414,Overhead Cross-court Net Shot,Upper Half
+18417,18433,Soft Net Shot,Lower Half
+18435,18469,Lift,Upper Half
+18471,18522,High Clear,Lower Half
+18523,18530,Short Smash,Upper Half
+19222,19256,Flat Serve,Lower Half
+19258,19292,High Clear,Upper Half
+19292,19300,Short Smash,Lower Half
+19302,19324,Drop Shot Return of Smash,Upper Half
+19326,19348,Soft Net Shot,Lower Half
+19354,19382,Lift,Upper Half
+19382,19390,Drive,Lower Half
+19392,19418,Soft Net Shot,Upper Half
+19420,19440,Soft Net Shot,Lower Half
+19446,19470,Soft Net Shot,Upper Half
+19470,19500,Lift,Lower Half
+19500,19526,Flat Clear,Upper Half
+19528,19548,Drive,Lower Half
+19552,19576,Overhead Cross-court Net Shot,Upper Half
+19578,19616,Lift,Lower Half
+19616,19664,High Clear,Upper Half
+19664,19704,High Clear,Lower Half
+19706,19728,Drop Shot,Upper Half
+19736,19762,Soft Net Shot,Lower Half
+19764,19800,Net Shot,Upper Half
+19800,19826,Lift,Lower Half
+21382,21400,Short Serve,Lower Half
+21402,21432,Lift,Upper Half
+21432,21470,Lift,Lower Half
+21472,21482,Short Smash,Upper Half
+21484,21506,Drop Shot,Lower Half
+21510,21542,Lift,Upper Half
+21544,21554,Drive,Lower Half
+21556,21582,Soft Net Shot,Upper Half
+21584,21618,Lift,Lower Half
+21618,21638,Drive,Upper Half
+21641,21665,Soft Net Shot,Lower Half
+21669,21695,Net Shot,Upper Half
+21697,21719,Soft Net Shot,Lower Half
+21721,21745,Net Shot,Upper Half
+21747,21817,Lift,Lower Half
+21817,21843,Flat Clear,Upper Half
+21845,21859,Smash(Full-length),Lower Half
+21861,21885,Lift Return of Smash,Upper Half
+21889,21913,Overhead Cross-court Net Shot,Lower Half
+23349,23371,Short Serve,Lower Half
+23373,23395,Overhead Cross-court Net Shot,Upper Half
+23397,23421,Soft Net Shot,Lower Half
+23423,23453,Lift,Upper Half
+23455,23500,High Clear,Lower Half
+23502,23522,Drop Shot,Upper Half
+23526,23552,Net Shot,Lower Half
+23556,23582,Net Shot,Upper Half
+23584,23608,Net Shot,Lower Half
+23608,23674,Lift,Upper Half
+23676,23690,Drive,Lower Half
+23694,23712,Soft Net Shot,Upper Half
+23716,23738,Soft Net Shot,Lower Half
+23742,23768,Net Shot,Upper Half
+23770,23810,Lift,Lower Half
+23812,23826,Drop Shot,Upper Half
+23828,23854,Soft Net Shot,Lower Half
+23854,23888,Lift,Upper Half
+23890,23912,Drive,Lower Half
+23916,23950,Lift,Upper Half
+23952,23974,Overhead Cross-court Net Shot,Lower Half
+23976,24006,Net Shot,Upper Half
+24008,24070,Lift,Lower Half
+24072,24100,Drive,Upper Half
+24100,24120,Drive,Lower Half
+24122,24158,Lift,Upper Half
+24160,24184,Drive,Lower Half
+24821,24853,High Serve,Lower Half
+24857,24877,Drive,Upper Half
+24881,24903,Net Shot,Lower Half
+24905,24931,Net Shot,Upper Half
+24933,24975,Lift,Lower Half
+24977,25003,Flat Clear,Upper Half
+25005,25018,Drop Shot,Lower Half
+25018,25042,Underhead Cross-court Net Shot,Upper Half
+25042,25066,Soft Net Shot,Lower Half
+25066,25090,Soft Net Shot,Upper Half
+25092,25130,Lift,Lower Half
+25132,25162,Lift,Upper Half
+25166,25194,Net Shot,Lower Half
+25196,25218,Net Shot,Upper Half
+25218,25258,Lift,Lower Half
+25260,25302,High Clear,Upper Half
+25304,25318,Smash(Full-length),Lower Half
+25320,25348,Drop Shot Return of Smash,Upper Half
+25352,25401,Lift,Lower Half
+25401,25415,Short Smash,Upper Half
+25417,25441,Drop Shot Return of Smash,Lower Half
+25445,25471,Overhead Cross-court Net Shot,Upper Half
+25473,25537,Lift,Lower Half
+25538,25550,Drive,Upper Half
+25550,25578,Soft Net Shot,Lower Half
+25582,25616,Lift,Upper Half
+25618,25658,High Clear,Lower Half
+25658,25694,High Clear,Upper Half
+25696,25700,Short Smash,Lower Half
+27101,27133,Flat Serve,Upper Half
+27133,27145,Drive,Lower Half
+27147,27169,Soft Net Shot,Upper Half
+27169,27179,Overhead Cross-court Net Shot,Lower Half
+27179,27195,Drive,Upper Half
+27195,27209,Net Shot,Lower Half
+27209,27239,Net Shot,Upper Half
+27243,27285,Lift,Lower Half
+27287,27303,Smash(Full-length),Upper Half
+27303,27335,Drop Shot Return of Smash,Lower Half
+27335,27379,Lift,Upper Half
+28005,28027,Soft Net Shot Return of Serve,Upper Half
+28031,28073,Lift,Lower Half
+28073,28089,Short Smash,Upper Half
+28087,28101,Net Shot,Lower Half
+28703,28723,Short Serve,Upper Half
+28727,28753,Soft Net Shot,Lower Half
+28757,28799,Lift,Upper Half
+28800,28826,Overhead Cross-court Net Shot,Lower Half
+28830,28856,Net Shot,Upper Half
+28859,28906,Lift,Lower Half
+28906,28922,Drive,Upper Half
+28924,28946,Soft Net Shot,Lower Half
+28948,28978,Lift,Upper Half
+28978,28986,Drive,Lower Half
+28991,29005,Net Shot,Upper Half
+29005,29025,Soft Net Shot,Lower Half
+29026,29058,Lift,Upper Half
+29060,29092,High Clear,Lower Half
+29094,29131,High Clear,Upper Half
+29132,29170,High Clear,Lower Half
+29170,29186,Smash(Full-length),Upper Half
+29190,29212,Drop Shot Return of Smash,Lower Half
+29216,29250,Lift,Upper Half
+29252,29286,Lift,Lower Half
+29288,29310,Drop Shot,Upper Half
+29316,29344,Net Shot,Lower Half
+29346,29372,Net Shot,Upper Half
+29372,29424,Lift,Lower Half
+29426,29468,High Clear,Upper Half
+29470,29482,Short Smash,Lower Half
+29484,29514,Drop Shot Return of Smash,Upper Half
+29515,29557,Lift,Lower Half
+29559,29587,Drop Shot,Upper Half
+29587,29621,Lift,Lower Half
+29621,29661,High Clear,Upper Half
+29663,29677,Drive,Lower Half
+29679,29697,Overhead Cross-court Net Shot,Upper Half
+29699,29721,Net Shot,Lower Half
+29725,29749,Soft Net Shot,Upper Half
+29749,29797,Lift,Lower Half
+29795,29825,Drop Shot,Upper Half
+29825,29851,Overhead Cross-court Net Shot,Lower Half
+29853,29881,Net Shot,Upper Half
+29881,29927,Lift,Lower Half
+29927,29973,High Clear,Upper Half
+31051,31083,Lift Return of Serve,Upper Half
+31085,31115,High Clear,Lower Half
+31117,31131,Smash(Full-length),Upper Half
+31133,31159,Drop Shot Return of Smash,Lower Half
+31163,31199,Lift,Upper Half
+31201,31213,Drive,Lower Half
+31213,31243,Net Shot,Upper Half
+31247,31273,Soft Net Shot,Lower Half
+31275,31301,Soft Net Shot,Upper Half
+31303,31365,Lift,Lower Half
+31365,31383,Smash(Full-length),Upper Half
+32349,32371,Lift,Lower Half
+32373,32397,Drop Shot,Upper Half
+32399,32441,Lift,Lower Half
+32441,32467,Overhead Cross-court Net Shot,Upper Half
+32467,32493,Net Shot,Lower Half
+32495,32521,Net Shot,Upper Half
+32523,32549,Net Shot,Lower Half
+32551,32597,Lift,Upper Half
+32599,32609,Smash(Full-length),Lower Half
+32611,32635,Drop Shot Return of Smash,Upper Half
+32635,32653,Soft Net Shot,Lower Half
+32655,32681,Soft Net Shot,Upper Half
+32683,32719,Lift,Lower Half
+32721,32747,Flat Clear,Upper Half
+32749,32763,Drop Shot,Lower Half
+32765,32789,Soft Net Shot,Upper Half
+32789,32815,Soft Net Shot,Lower Half
+32815,32841,Net Shot,Upper Half
+34340,34360,Short Serve,Lower Half
+34360,34394,Lift Return of Serve,Upper Half
+34396,34414,Drive,Lower Half
+34414,34426,Net Kill,Upper Half
+34428,34452,Lift,Lower Half
+35035,35055,Short Serve,Upper Half
+35057,35089,Lift Return of Serve,Lower Half
+35091,35105,Drop Shot,Upper Half
+35109,35117,Soft Net Shot,Lower Half
+35119,35137,Net Kill,Upper Half
+35141,35165,Soft Net Shot,Lower Half
+35169,35211,Lift,Upper Half
+35213,35227,Drive,Lower Half
+35229,35257,Net Shot,Upper Half
+35259,35285,Soft Net Shot,Lower Half
+35287,35327,Lift,Upper Half
+35329,35347,Drive,Lower Half
+35355,35379,Underhead Cross-court Net Shot,Upper Half
+35383,35401,Soft Net Shot,Lower Half
+35413,35443,Overhead Cross-court Net Shot,Upper Half
+35445,35477,High Clear,Lower Half
+35481,35499,Smash(Full-length),Upper Half
+35499,35527,Cross-court Net Return of Smash,Lower Half
+35533,35561,Soft Net Shot,Upper Half
+35563,35603,High Clear,Lower Half
+35603,35635,Flat Clear,Upper Half
+35637,35651,Overhead Cross-court Net Shot,Lower Half
+35657,35671,Overhead Cross-court Net Shot,Upper Half
+35673,35701,Lift,Lower Half
+35701,35715,Short Smash,Upper Half
+35717,35747,Lift Return of Smash,Lower Half
+35751,35781,Overhead Cross-court Net Shot,Upper Half
+35783,35819,High Clear,Lower Half
+35821,35849,Drop Shot,Upper Half
+35851,35879,Lift,Lower Half
+35881,35913,Flat Clear,Upper Half
+35913,35953,High Clear,Lower Half
+35953,35969,Short Smash,Upper Half
+35971,35999,Drop Shot Return of Smash,Lower Half
+36003,36037,Lift,Upper Half
+36039,36075,High Clear,Lower Half
+36075,36107,Flat Clear,Upper Half
+36107,36153,High Clear,Lower Half
+36153,36177,Drop Shot,Upper Half
+36181,36209,Net Shot,Lower Half
+36213,36243,Net Shot,Upper Half
+36245,36275,Net Shot,Lower Half
+38025,38061,Lift Return of Serve,Lower Half
+38063,38079,Drop Shot,Upper Half
+38081,38103,Underhead Cross-court Net Shot,Lower Half
+38107,38151,Lift,Upper Half
+38153,38171,Drive,Lower Half
+38173,38197,Soft Net Shot,Upper Half
+38197,38221,Overhead Cross-court Net Shot,Lower Half
+38225,38249,Net Shot,Upper Half
+38251,38307,Lift,Lower Half
+38307,38335,Drive,Upper Half
+38337,38345,Short Smash,Lower Half
+38347,38373,Cross-court Net Return of Smash,Upper Half
+38375,38397,Soft Net Shot,Lower Half
+38401,38445,Lift,Upper Half
+38447,38483,High Clear,Lower Half
+38485,38511,Flat Clear,Upper Half
+38511,38523,Jump Smash,Lower Half
+39150,39186,Lift Return of Serve,Lower Half
+39188,39210,Drop Shot,Upper Half
+39214,39250,Lift,Lower Half
+39252,39284,High Clear,Upper Half
+39286,39300,Smash(Full-length),Lower Half
+40902,40926,Soft Net Shot Return of Serve,Lower Half
+40926,40966,Lift,Upper Half
+40968,40976,Smash(Full-length),Lower Half
+40978,41008,Lift Return of Smash,Upper Half
+41595,41635,Lift,Lower Half
+41637,41653,Drop Shot,Upper Half
+41655,41677,Overhead Cross-court Net Shot,Lower Half
+41679,41725,Lift,Upper Half
+41727,41745,Drive,Lower Half
+41751,41783,Lift,Upper Half
+41785,41801,Drive,Lower Half
+41803,41821,Net Shot,Upper Half
+41821,41829,Drive,Lower Half
+41831,41851,Overhead Cross-court Net Shot,Upper Half
+41851,41875,Push Shot,Lower Half
+41877,41917,Lift,Upper Half
+42425,42433,Short Serve,Lower Half
+42443,42479,Lift Return of Serve,Upper Half
+42481,42499,Drive,Lower Half
+42499,42525,Overhead Cross-court Net Shot,Upper Half
+42527,42571,Lift,Lower Half
+42573,42599,Drop Shot,Upper Half
+42601,42619,Underhead Cross-court Net Shot,Lower Half
+42627,42653,Soft Net Shot,Upper Half
+42653,42705,Lift,Lower Half
+42707,42723,Drop Shot,Upper Half
+42725,42749,Overhead Cross-court Net Shot,Lower Half
+42753,42777,Net Shot,Upper Half
+42783,42843,Defensive Lift,Lower Half
+44151,44173,Short Serve,Upper Half
+44173,44211,Lift Return of Serve,Lower Half
+44213,44231,Drop Shot,Upper Half
+44231,44257,Soft Net Shot,Lower Half
+44259,44291,Lift,Upper Half
+44293,44307,Drive,Lower Half
+44309,44333,Net Shot,Upper Half
+44335,44339,Net Kill,Lower Half
+44879,44893,Short Serve,Lower Half
+44899,44921,Soft Net Shot Return of Serve,Upper Half
+44923,44945,Soft Net Shot,Lower Half
+44947,45009,Lift,Upper Half
+45009,45019,Drive,Lower Half
+45021,45043,Drop Shot Return of Smash,Upper Half
+45045,45063,Drive,Lower Half
+45067,45109,Lift,Upper Half
+45111,45145,High Clear,Lower Half
+45149,45175,Drop Shot,Upper Half
+45177,45195,Underhead Cross-court Net Shot,Lower Half
+45197,45227,Soft Net Shot,Upper Half
+45229,45251,Soft Net Shot,Lower Half
+45253,45319,Lift,Upper Half
+45321,45339,Drop Shot,Lower Half
+45341,45367,Underhead Cross-court Net Shot,Upper Half
+45369,45403,Lift,Lower Half
+45405,45421,Short Smash,Upper Half
+45423,45449,Cross-court Net Return of Smash,Lower Half
+45453,45481,Net Shot,Upper Half
+45481,45519,Lift,Lower Half
+45517,45537,Drop Shot,Upper Half
+45539,45563,Overhead Cross-court Net Shot,Lower Half
+45565,45593,Net Shot,Upper Half
+45595,45621,Soft Net Shot,Lower Half
+45623,45682,Lift,Upper Half
+45682,45692,Smash(Full-length),Lower Half
+45694,45714,Drop Shot Return of Smash,Upper Half
+45716,45740,Drop Shot,Lower Half
+45742,45768,Net Shot,Upper Half
+45770,45794,Soft Net Shot,Lower Half
+45798,45858,Lift,Upper Half
+45860,45870,Smash(Full-length),Lower Half
+45872,45900,Drop Shot Return of Smash,Upper Half
+45902,45928,Net Shot,Lower Half
+45928,45966,Lift,Upper Half
+45968,45990,Drive,Lower Half
+45994,46018,Overhead Cross-court Net Shot,Upper Half
+46020,46056,Lift,Lower Half
+46058,46072,Drop Shot,Upper Half
+48221,48259,Lift,Lower Half
+48261,48281,Drop Shot,Upper Half
+48281,48293,Drive,Lower Half
+48295,48313,Push Shot,Upper Half
+48315,48337,Soft Net Shot,Lower Half
+48341,48369,Underhead Cross-court Net Shot,Upper Half
+48371,48395,Soft Net Shot,Lower Half
+48401,48419,Underhead Cross-court Net Shot,Upper Half
+48928,48950,Soft Net Shot Return of Serve,Lower Half
+48954,48978,Soft Net Shot,Upper Half
+48980,49024,Lift,Lower Half
+49027,49039,Smash(Full-length),Upper Half
+49039,49063,Drop Shot Return of Smash,Lower Half
+49063,49071,Overhead Cross-court Net Shot,Upper Half
+49071,49106,Lift,Lower Half
+49847,49865,Short Serve,Lower Half
+49867,49889,Soft Net Shot Return of Serve,Upper Half
+49891,49931,Lift,Lower Half
+49931,49945,Short Smash,Upper Half
+49947,49973,Cross-court Net Return of Smash,Lower Half
+49975,49999,Soft Net Shot,Upper Half
+49999,50031,Lift,Lower Half
+50033,50049,Drop Shot,Upper Half
+50051,50059,Lift,Lower Half
+50061,50077,Push Shot,Upper Half
+50079,50099,Soft Net Shot,Lower Half
+50101,50141,Lift,Upper Half
+50143,50181,High Clear,Lower Half
+50183,50201,Smash(Full-length),Upper Half
+51159,51173,Push Shot,Lower Half
+51904,51916,Short Serve,Lower Half
+51920,51944,Soft Net Shot Return of Serve,Upper Half
+51944,51996,Lift,Lower Half
+51998,52014,Short Smash,Upper Half
+52016,52040,Net Shot,Lower Half
+52042,52064,Soft Net Shot,Upper Half
+52066,52104,Lift,Lower Half
+52106,52126,Drop Shot,Upper Half
+52128,52144,Soft Net Shot,Lower Half
+52146,52184,Lift,Upper Half
+52184,52200,Drop Shot,Lower Half
+52202,52224,Overhead Cross-court Net Shot,Upper Half
+52224,52241,Soft Net Shot,Lower Half
+52243,52277,Lift,Upper Half
+52279,52295,Drive,Lower Half
+52297,52319,Overhead Cross-court Net Shot,Upper Half
+52321,52341,Soft Net Shot,Lower Half
+52343,52369,Soft Net Shot,Upper Half
+52371,52415,Lift,Lower Half
+52417,52439,Drop Shot,Upper Half
+53584,53600,Short Serve,Upper Half
+53602,53624,Soft Net Shot Return of Serve,Lower Half
+53626,53668,Lift,Upper Half
+53672,53694,Drive,Lower Half
+54080,54090,Short Serve,Upper Half
+54092,54112,Lift Return of Serve,Lower Half
+54114,54124,Short Smash,Upper Half
+54126,54142,Cross-court Net Return of Smash,Lower Half
+54144,54170,Net Shot,Upper Half
+54172,54208,Lift,Lower Half
+54210,54234,Drop Shot,Upper Half
+54234,54260,Soft Net Shot,Lower Half
+54264,54304,Lift,Upper Half
+54306,54330,Overhead Cross-court Net Shot,Lower Half
+54332,54360,Soft Net Shot,Upper Half
+54364,54392,Defensive Lift,Lower Half
+54394,54414,Smash(Full-length),Upper Half
+55025,55071,Clear Return of Serve,Lower Half
+55073,55085,Short Smash,Upper Half
+55085,55119,Cross-court Net Return of Smash,Lower Half
+55119,55171,Lift,Upper Half
+55518,55542,Soft Net Shot Return of Serve,Upper Half
+55544,55568,Soft Net Shot,Lower Half
+55568,55606,Lift,Upper Half
+55606,55632,Flat Clear,Lower Half
+55634,55646,Short Smash,Upper Half
+55648,55672,Drop Shot Return of Smash,Lower Half
+55676,55696,Net Shot,Upper Half
+55698,55724,Soft Net Shot,Lower Half
+55726,55780,Lift,Upper Half
+55780,55810,High Clear,Lower Half
+55814,55836,Drop Shot,Upper Half
+55836,55866,Underhead Cross-court Net Shot,Lower Half
+55868,55908,Lift,Upper Half
+55908,55926,Drop Shot,Lower Half
+55928,55955,Soft Net Shot,Upper Half
+55957,55983,Soft Net Shot,Lower Half
+55983,56033,Lift,Upper Half
+56035,56059,Overhead Cross-court Net Shot,Lower Half
+56061,56087,Soft Net Shot,Upper Half
+56089,56150,Lift,Lower Half
+56152,56166,Short Smash,Upper Half
+56166,56184,Lift Return of Smash,Lower Half
+56186,56210,Drop Shot,Upper Half
+56212,56234,Soft Net Shot,Lower Half
+57032,57072,Flat Serve,Upper Half
+57074,57096,Cross-court Net Return of Serve,Lower Half
+57100,57130,Defensive Lift,Upper Half
+57132,57162,Flat Clear,Lower Half
+57164,57184,Drop Shot,Upper Half
+57186,57198,Soft Net Shot,Lower Half
+57697,57709,Short Serve,Lower Half
+57719,57759,Lift,Upper Half
+57763,57789,Flat Clear,Lower Half
+57791,57807,Short Smash,Upper Half
+57807,57827,Lift Return of Smash,Lower Half
+57829,57859,Lift,Upper Half
+57861,57873,Drive,Lower Half
+57875,57905,Overhead Cross-court Net Shot,Upper Half
+57907,57937,Lift,Lower Half
+57941,57953,Drop Shot,Upper Half
+57955,57969,Lift,Lower Half
+57975,58015,High Clear,Upper Half
+58620,58662,Lift,Upper Half
+58664,58696,High Clear,Lower Half
+58697,58717,Drive,Upper Half
+58719,58743,Underhead Cross-court Net Shot,Lower Half
+58747,58757,Net Kill,Upper Half
+58759,58777,Lift,Lower Half
+58779,58801,Push Shot,Upper Half
+58805,58849,Lift,Lower Half
+59647,59665,Short Serve,Upper Half
+59667,59695,Cross-court Net Return of Serve,Lower Half
+59699,59739,Defensive Lift,Upper Half
+59741,59753,Smash(Full-length),Lower Half
+60498,60514,Short Serve,Upper Half
+60516,60544,Lift,Lower Half
+60550,60560,Drive,Upper Half
+60562,60586,Push Shot,Lower Half
+60588,60608,Underhead Cross-court Net Shot,Upper Half
+60610,60632,Soft Net Shot,Lower Half
+60636,60686,Lift,Upper Half
+60688,60710,Overhead Cross-court Net Shot,Lower Half
+60712,60736,Soft Net Shot,Upper Half
+60736,60760,Soft Net Shot,Lower Half
+60762,60790,Soft Net Shot,Upper Half
+62427,62463,Lift,Upper Half
+62467,62481,Drive,Lower Half
+62483,62509,Overhead Cross-court Net Shot,Upper Half
+62511,62535,Net Shot,Lower Half
+62541,62575,Lift,Upper Half
+62577,62605,Flat Clear,Lower Half
+62605,62625,Drop Shot,Upper Half
+62627,62651,Lift,Lower Half
+62653,62665,Short Smash,Upper Half
+62665,62697,Lift Return of Smash,Lower Half
+62699,62715,Drop Shot,Upper Half
+62717,62739,Net Shot,Lower Half
+62745,62767,Lift,Upper Half
+62806,62832,Net Shot,Upper Half
+62836,62860,Soft Net Shot,Lower Half
+62864,62916,Lift,Upper Half
+62918,62942,Drop Shot,Lower Half
+62942,62978,Lift,Upper Half
+62980,63010,High Clear,Lower Half
+63012,63036,Drop Shot,Upper Half
+63038,63061,Net Shot,Lower Half
+63065,63103,Lift,Upper Half
+63105,63143,High Clear,Lower Half
+63145,63167,Drop Shot,Upper Half
+63169,63189,Lift,Lower Half
+63191,63203,Short Smash,Upper Half
+63204,63226,Overhead Cross-court Net Shot,Lower Half
+63230,63254,Soft Net Shot,Upper Half
+63256,63286,Soft Net Shot,Lower Half
+63288,63350,Lift,Upper Half
+63352,63366,Short Smash,Lower Half
+64191,64231,Lift Return of Serve,Upper Half
+64233,64265,High Clear,Lower Half
+64267,64285,Drop Shot,Upper Half
+64287,64301,Lift,Lower Half
+64303,64325,Push Shot,Upper Half
+64327,64353,Net Shot,Lower Half
+64355,64381,Net Shot,Upper Half
+64383,64403,Soft Net Shot,Lower Half
+64983,65021,Lift Return of Serve,Upper Half
+65021,65045,Drop Shot,Lower Half
+65045,65077,Lift,Upper Half
+65079,65113,Flat Clear,Lower Half
+66821,66837,Short Serve,Upper Half
+66839,66869,Lift Return of Serve,Lower Half
+66871,66883,Short Smash,Upper Half
+66885,66907,Drop Shot Return of Smash,Lower Half
+66915,66935,Soft Net Shot,Upper Half
+66937,66965,Net Shot,Lower Half
+66967,67013,Lift,Upper Half
+67015,67053,Flat Clear,Lower Half
+67532,67554,Lift Return of Serve,Lower Half
+67564,67590,Soft Net Shot,Upper Half
+67594,67644,Lift,Lower Half
+67648,67664,Drive,Upper Half
+67666,67686,Underhead Cross-court Net Shot,Lower Half
+67684,67704,Soft Net Shot,Upper Half
+67706,67734,Lift,Lower Half
+67738,67754,Drive,Upper Half
+67756,67772,Net Shot,Lower Half
+67773,67807,Lift,Upper Half
+67809,67825,Drop Shot,Lower Half
+67829,67865,Lift,Upper Half
+67867,67885,Drive,Lower Half
+67889,67915,Net Shot,Upper Half
+67917,67941,Underhead Cross-court Net Shot,Lower Half
+67943,67987,Defensive Lift,Upper Half
+68575,68595,Short Serve,Upper Half
+68595,68617,Soft Net Shot,Lower Half
+68619,68683,Lift,Upper Half
+68685,68719,High Clear,Lower Half
+68721,68733,Smash(Full-length),Upper Half
+68735,68759,Lift Return of Smash,Lower Half
+68765,68786,Push Shot,Upper Half
+68788,68824,Lift,Lower Half
+68824,68866,High Clear,Upper Half
+68868,68880,Drive,Lower Half
+68882,68906,Net Shot,Upper Half
+68910,68934,Lift,Lower Half
+68936,68948,Drive,Upper Half
+68948,68966,Overhead Cross-court Net Shot,Lower Half
+68966,68985,Drop Shot,Upper Half
+68987,69017,Lift,Lower Half
+69019,69051,Lift,Upper Half
+69053,69089,Flat Clear,Lower Half
+69089,69107,Drive,Upper Half
+69109,69135,Soft Net Shot,Lower Half
+69137,69179,Lift,Upper Half
+69179,69193,Drive,Lower Half
+69197,69221,Push Shot,Upper Half
+69224,69259,Lift,Lower Half
+69261,69287,Drop Shot,Upper Half
+69291,69319,Net Shot,Lower Half
+69321,69367,Lift,Upper Half
+69369,69399,Overhead Cross-court Net Shot,Lower Half
+69401,69443,Lift,Upper Half
+69443,69481,High Clear,Lower Half
+69483,69501,Smash(Full-length),Upper Half
+70448,70484,Flat Serve,Upper Half
+70486,70506,Drop Shot,Lower Half
+70508,70532,Soft Net Shot,Upper Half
+70534,70556,Soft Net Shot,Lower Half
+70558,70598,Lift,Upper Half
+70601,70631,High Clear,Lower Half
+70636,70654,Drop Shot,Upper Half
+70656,70693,Lift,Lower Half
+70695,70719,Drop Shot,Upper Half
+70721,70747,Net Shot,Lower Half
+70751,70793,Lift,Upper Half
+70793,70825,Flat Clear,Lower Half
+70827,70845,Drop Shot,Upper Half
+70845,70881,Lift,Lower Half
+70881,70925,High Clear,Upper Half
+71567,71585,Short Serve,Upper Half
+71585,71609,Soft Net Shot Return of Serve,Lower Half
+71611,71637,Soft Net Shot,Upper Half
+71637,71663,Soft Net Shot,Lower Half
+71665,71715,Lift,Upper Half
+71717,71745,Lift,Lower Half
+72176,72222,Lift,Upper Half
+72222,72237,Drive,Lower Half
+72237,72255,Push Shot,Upper Half
+72263,72278,Drive,Lower Half
+72281,72309,Lift,Upper Half
+72309,72329,Drive,Lower Half
+72329,72367,Lift,Upper Half
+72367,72393,Flat Clear,Lower Half
+72391,72439,High Clear,Upper Half
+72439,72473,High Clear,Lower Half
+72473,72499,Drop Shot,Upper Half
+72501,72529,Underhead Cross-court Net Shot,Lower Half
+72531,72557,Soft Net Shot,Upper Half
+72559,72617,Lift,Lower Half
+72617,72633,Short Smash,Upper Half
+73202,73218,Short Serve,Upper Half
+73222,73258,Lift,Lower Half
+73258,73290,High Clear,Upper Half
+73290,73310,Drive,Lower Half
+74051,74073,Short Serve,Upper Half
+74075,74099,Cross-court Net Return of Serve,Lower Half
+74103,74123,Net Shot,Upper Half
+74121,74151,Lift,Lower Half
+74783,74819,Lift,Upper Half
+74821,74843,Drop Shot,Lower Half
+74845,74867,Net Shot,Upper Half
+74867,74901,Lift,Lower Half
+74903,74919,Drive,Upper Half
+74921,74931,Lift,Lower Half
+74931,74945,Drive,Upper Half
+74947,74963,Overhead Cross-court Net Shot,Lower Half
+74965,74985,Push Shot,Upper Half
+74987,75009,Soft Net Shot,Lower Half
+75011,75037,Net Shot,Upper Half
+75037,75091,Lift,Lower Half
+75520,75536,Short Serve,Upper Half
+75538,75572,Lift,Lower Half
+75574,75588,Drop Shot,Upper Half
+75590,75608,Overhead Cross-court Net Shot,Lower Half
+76211,76247,Lift Return of Serve,Lower Half
+76247,76265,Drop Shot,Upper Half
+76265,76291,Soft Net Shot,Lower Half
+76293,76335,Lift,Upper Half
+76337,76369,High Clear,Lower Half
+76369,76381,Short Smash,Upper Half
+76381,76413,Underhead Cross-court Net Shot,Lower Half
+76417,76453,Lift,Upper Half
+76453,76469,Drive,Lower Half
+76471,76484,Push Shot,Upper Half
+76486,76502,Overhead Cross-court Net Shot,Lower Half
+76504,76540,Lift,Upper Half
+76540,76562,Flat Clear,Lower Half
+76563,76575,Short Smash,Upper Half
+76577,76599,Lift Return of Smash,Lower Half
+76601,76639,Lift,Upper Half
+76641,76651,Drive,Lower Half
+76653,76677,Lift,Upper Half
+77299,77316,Drop Shot Return of Serve,Upper Half
+77318,77340,Overhead Cross-court Net Shot,Lower Half
+77346,77388,Lift,Upper Half
+77388,77410,Drive,Lower Half
+77412,77436,Net Shot,Upper Half
+77440,77444,Short Smash,Lower Half
+79183,79206,Short Serve,Lower Half
+79208,79246,Defensive Lift,Upper Half
+79248,79266,Drive,Lower Half
+79266,79288,Drop Shot Return of Smash,Upper Half
+79288,79316,Lift,Lower Half
+79318,79328,Short Smash,Upper Half
+79330,79358,Drop Shot Return of Smash,Lower Half
+79360,79384,Net Shot,Upper Half
+79386,79410,Net Shot,Lower Half
+79410,79476,Lift,Upper Half
+79476,79490,Smash(Full-length),Lower Half
+80354,80376,Short Serve,Lower Half
+80376,80412,Lift,Upper Half
+80414,80432,Drive,Lower Half
+80434,80462,Overhead Cross-court Net Shot,Upper Half
+80464,80490,Net Shot,Lower Half
+80492,80518,Soft Net Shot,Upper Half
+80518,80544,Lift,Lower Half
+80544,80572,Overhead Cross-court Net Shot,Upper Half
+81017,81035,Short Serve,Upper Half
+81037,81073,Lift,Lower Half
+81073,81089,Drop Shot,Upper Half
+81091,81109,Overhead Cross-court Net Shot,Lower Half
+81109,81128,Overhead Cross-court Net Shot,Upper Half
+81128,81156,Soft Net Shot,Lower Half
+81158,81194,Lift,Upper Half
+81194,81228,High Clear,Lower Half
+81230,81248,Drop Shot,Upper Half
+81250,81276,Soft Net Shot,Lower Half
+81278,81322,Lift,Upper Half
+81322,81334,Drive,Lower Half
+81336,81364,Overhead Cross-court Net Shot,Upper Half
+81366,81398,Lift,Lower Half
+81398,81412,Drive,Upper Half
+81414,81444,Overhead Cross-court Net Shot,Lower Half
+81446,81484,Lift,Upper Half
+81484,81516,High Clear,Lower Half
+81516,81560,High Clear,Upper Half
+82334,82356,Short Serve,Upper Half
+82356,82380,Soft Net Shot Return of Serve,Lower Half
+82380,82406,Soft Net Shot,Upper Half
+82408,82464,Lift,Lower Half
+82466,82510,High Clear,Upper Half
+82510,82538,Drive,Lower Half
+82540,82566,Net Shot,Upper Half
+82570,82606,Lift,Lower Half
+82608,82612,Short Smash,Upper Half
+85711,85731,Drive,Lower Half
+85733,85759,Soft Net Shot,Upper Half
+85759,85799,Lift,Lower Half
+85799,85819,Drive,Upper Half
+85821,85839,Lift,Lower Half
+85841,85861,Drop Shot,Upper Half
+85863,85887,Net Shot,Lower Half
+85893,85939,Lift,Upper Half
+85939,85955,Drive,Lower Half
+86604,86624,Short Serve,Lower Half
+86626,86660,Lift,Upper Half
+86660,86694,High Clear,Lower Half
+86696,86708,Smash(Full-length),Upper Half
+86708,86730,Lift Return of Smash,Lower Half
+86734,86762,Soft Net Shot,Upper Half
+86762,86788,Soft Net Shot,Lower Half
+86788,86816,Net Shot,Upper Half
+86818,86842,Net Shot,Lower Half
+88556,88590,Lift,Lower Half
+88592,88618,Overhead Cross-court Net Shot,Upper Half
+88622,88646,Net Shot,Lower Half
+88650,88674,Net Shot,Upper Half
+88676,88727,Lift,Lower Half
+88727,88741,Smash(Full-length),Upper Half
+88741,88767,Lift Return of Smash,Lower Half
+88773,88825,Defensive Lift,Upper Half
+88827,88849,Drive,Lower Half
+88851,88873,Net Shot,Upper Half
+88879,88911,Lift,Lower Half
+88911,88925,Short Smash,Upper Half
+88927,88949,Lift Return of Smash,Lower Half
+88951,88977,Overhead Cross-court Net Shot,Upper Half
+88979,89007,Lift,Lower Half
+89989,90029,Lift Return of Serve,Upper Half
+90031,90043,Drive,Lower Half
+90045,90061,Push Shot,Upper Half
+90063,90083,Soft Net Shot,Lower Half
+90085,90111,Net Shot,Upper Half
+90113,90137,Net Shot,Lower Half
+90139,90163,Soft Net Shot,Upper Half
+90165,90205,Lift,Lower Half
+90207,90241,Flat Clear,Upper Half
+90241,90263,Drive,Lower Half
+90265,90293,Soft Net Shot,Upper Half
+90297,90331,Lift,Lower Half
+90331,90351,Drop Shot,Upper Half
+90353,90379,Overhead Cross-court Net Shot,Lower Half
+90381,90413,Lift,Upper Half
+90415,90443,Flat Clear,Lower Half
+90443,90465,Drop Shot,Upper Half
+90467,90485,Overhead Cross-court Net Shot,Lower Half
+90487,90511,Push Shot,Upper Half
+90517,90543,Net Shot,Lower Half
+90545,90589,Lift,Upper Half
+90591,90615,Drive,Lower Half
+90617,90643,Soft Net Shot,Upper Half
+90647,90715,Lift,Lower Half
+90717,90731,Smash(Full-length),Upper Half
+90733,90759,Lift Return of Smash,Lower Half
+90759,90783,Drop Shot,Upper Half
+90787,90821,Lift,Lower Half
+90821,90843,Drop Shot,Upper Half
+90845,90875,Lift,Lower Half
+90879,90923,Lift,Upper Half
+90925,90955,High Clear,Lower Half
+90957,90970,Short Smash,Upper Half
+90972,90988,Lift Return of Smash,Lower Half
+91002,91040,Lift,Upper Half
+91042,91072,Overhead Cross-court Net Shot,Lower Half
+91076,91102,Net Shot,Upper Half
+91108,91158,Defensive Lift,Lower Half
+91160,91202,High Clear,Upper Half
+91204,91252,High Clear,Lower Half
+91253,91295,High Clear,Upper Half
+91297,91343,High Clear,Lower Half
+91345,91383,High Clear,Upper Half
+91385,91401,Drive,Lower Half
+91401,91433,Defensive Lift,Upper Half
+91439,91474,Lift,Lower Half
+91476,91516,High Clear,Upper Half
+91518,91544,Drop Shot,Lower Half
+91546,91572,Net Shot,Upper Half
+91576,91628,Lift,Lower Half
+92702,92720,Short Serve,Upper Half
+92724,92758,Lift Return of Serve,Lower Half
+92760,92772,Short Smash,Upper Half
+92774,92793,Drop Shot Return of Smash,Lower Half
+92793,92809,Push Shot,Upper Half
+92813,92837,Soft Net Shot,Lower Half
+92839,92869,Soft Net Shot,Upper Half
+92869,92885,Soft Net Shot,Lower Half
+92887,92899,Overhead Cross-court Net Shot,Upper Half
+92903,92913,Defensive Lift,Lower Half
+92913,92925,Net Kill,Upper Half

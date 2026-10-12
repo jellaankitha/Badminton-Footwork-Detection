@@ -1,0 +1,10 @@
+dataset/
+frames/
+frames_cleaned/
+videos/
+output/
+runs/
+weights/
+*.pt
+pycache/
+*.pyc
