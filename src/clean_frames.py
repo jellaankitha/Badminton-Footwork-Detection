@@ -2,62 +2,88 @@ from ultralytics import YOLO
 import cv2
 import os
 import shutil
+import csv
+from pathlib import Path
 
 # ==========================================
 # SETTINGS
 # ==========================================
 
-INPUT_FOLDER = "frames"
-OUTPUT_FOLDER = "frames_cleaned"
+# Project folder containing this Python file
+BASE_DIR = Path(__file__).resolve().parent.parent
 
-MODEL_PATH = "weights/best.pt"
+INPUT_FOLDER = BASE_DIR / "frames"
+OUTPUT_FOLDER = BASE_DIR / "frames_cleaned"
+
+# Pretrained YOLO model for detecting PEOPLE.
+# This is different from your 7-class footwork model.
+PERSON_MODEL_PATH = "yolov8n.pt"
 
 CONFIDENCE = 0.30
-
-# Blur threshold
 BLUR_THRESHOLD = 40
-
-# Similar-frame threshold
-DIFFERENCE_THRESHOLD = 8
-
-# Minimum number of players required
 MIN_PLAYERS = 2
 
+# Print progress after every 500 frames
+PROGRESS_INTERVAL = 500
+
+IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png"}
 
 # ==========================================
-# LOAD YOLO MODEL
+# CHECK FOLDERS
 # ==========================================
 
-print("Loading YOLO model...")
+if not INPUT_FOLDER.is_dir():
+    raise FileNotFoundError(
+        f"Input folder not found: {INPUT_FOLDER}\n"
+        "Make sure 'frames' is beside this Python file."
+    )
 
-model = YOLO(MODEL_PATH)
+# Prevent accidentally copying output into the input folder.
+if INPUT_FOLDER.resolve() == OUTPUT_FOLDER.resolve():
+    raise ValueError("Input and output folders must be different.")
 
-print("Model loaded!")
+# Create a fresh output folder for this run.
+# The existing output is preserved by renaming it.
+if OUTPUT_FOLDER.exists():
+    from datetime import datetime
 
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    backup_folder = OUTPUT_FOLDER.with_name(
+        f"{OUTPUT_FOLDER.name}_backup_{timestamp}"
+    )
+
+    OUTPUT_FOLDER.rename(backup_folder)
+    print(f"Previous output preserved at: {backup_folder}")
+
+OUTPUT_FOLDER.mkdir(parents=True, exist_ok=True)
+
+REPORT_PATH = BASE_DIR / "cleaning_report.csv"
 
 # ==========================================
-# CREATE OUTPUT FOLDER
+# LOAD PERSON DETECTOR
 # ==========================================
 
-os.makedirs(OUTPUT_FOLDER, exist_ok=True)
+print("Loading pretrained YOLO person detector...")
+print("The first run may download yolov8n.pt.")
 
+model = YOLO(PERSON_MODEL_PATH)
+
+print("Person detector loaded!")
 
 # ==========================================
-# GET ALL FRAMES
+# GET ALL IMAGE FILES
 # ==========================================
 
-files = [
-    f for f in os.listdir(INPUT_FOLDER)
-    if f.lower().endswith((".jpg", ".jpeg", ".png"))
-]
+files = sorted(
+    path for path in INPUT_FOLDER.iterdir()
+    if path.is_file()
+    and path.suffix.lower() in IMAGE_EXTENSIONS
+)
 
-files.sort()
+total = len(files)
 
-print()
-print("Total frames found:", len(files))
-print("Cleaning started...")
-print()
-
+print(f"\nTotal frames found: {total}")
+print("Cleaning started...\n")
 
 # ==========================================
 # COUNTERS
@@ -67,171 +93,169 @@ kept = 0
 no_players = 0
 one_player = 0
 blurry = 0
-duplicates = 0
 bad_images = 0
-
-previous_gray = None
-
+detection_errors = 0
 
 # ==========================================
 # PROCESS FRAMES
 # ==========================================
 
-for i, filename in enumerate(files):
+with open(
+    REPORT_PATH, "w", newline="", encoding="utf-8"
+) as report_file:
 
-    input_path = os.path.join(INPUT_FOLDER, filename)
+    writer = csv.writer(report_file)
+    writer.writerow([
+        "filename",
+        "status",
+        "reason",
+        "person_count",
+        "blur_score"
+    ])
 
-    image = cv2.imread(input_path)
+    for i, image_path in enumerate(files, start=1):
 
-    # --------------------------------------
-    # INVALID IMAGE
-    # --------------------------------------
+        person_count = 0
+        blur_value = ""
 
-    if image is None:
-        bad_images += 1
-        continue
+        try:
+            image = cv2.imread(str(image_path))
 
+            # ----------------------------------
+            # INVALID IMAGE
+            # ----------------------------------
 
-    # ======================================
-    # BLUR CHECK
-    # ======================================
+            if image is None:
+                bad_images += 1
+                writer.writerow([
+                    image_path.name, "REJECTED",
+                    "Unreadable image", "", ""
+                ])
+                continue
 
-    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+            # ----------------------------------
+            # BLUR CHECK
+            # ----------------------------------
 
-    blur_value = cv2.Laplacian(
-        gray,
-        cv2.CV_64F
-    ).var()
+            gray = cv2.cvtColor(
+                image, cv2.COLOR_BGR2GRAY
+            )
 
-    if blur_value < BLUR_THRESHOLD:
+            blur_value = round(
+                cv2.Laplacian(
+                    gray, cv2.CV_64F
+                ).var(), 2
+            )
 
-        blurry += 1
-        continue
+            if blur_value < BLUR_THRESHOLD:
+                blurry += 1
+                writer.writerow([
+                    image_path.name, "REJECTED",
+                    "Too blurry", "", blur_value
+                ])
+                continue
 
+            # ----------------------------------
+            # DETECT PEOPLE, NOT FOOTWORK CLASSES
+            # ----------------------------------
 
-    # ======================================
-    # YOLO PLAYER DETECTION
-    # ======================================
+            results = model.predict(
+                source=image,
+                conf=CONFIDENCE,
+                classes=[0],  # COCO class 0 = person
+                verbose=False
+            )
 
-    results = model.predict(
-        image,
-        conf=CONFIDENCE,
-        verbose=False
-    )
+            boxes = results[0].boxes
 
-    boxes = results[0].boxes
+            if boxes is not None:
+                person_count = len(boxes)
 
+            # ----------------------------------
+            # NO PERSON DETECTED
+            # ----------------------------------
 
-    player_count = 0
+            if person_count == 0:
+                no_players += 1
+                writer.writerow([
+                    image_path.name, "REJECTED",
+                    "No people detected",
+                    person_count, blur_value
+                ])
+                continue
 
-    if boxes is not None:
-        player_count = len(boxes)
+            # ----------------------------------
+            # ONLY ONE PERSON DETECTED
+            # ----------------------------------
 
+            if person_count < MIN_PLAYERS:
+                one_player += 1
+                writer.writerow([
+                    image_path.name, "REJECTED",
+                    "Fewer than 2 people detected",
+                    person_count, blur_value
+                ])
+                continue
 
-    # ======================================
-    # NO PLAYERS
-    # ======================================
+            # ----------------------------------
+            # KEEP FRAME
+            # ----------------------------------
 
-    if player_count == 0:
+            output_path = OUTPUT_FOLDER / image_path.name
 
-        no_players += 1
-        continue
+            shutil.copy2(image_path, output_path)
 
+            kept += 1
 
-    # ======================================
-    # ONLY ONE PLAYER
-    # ======================================
+            writer.writerow([
+                image_path.name, "KEPT",
+                "At least 2 people detected",
+                person_count, blur_value
+            ])
 
-    if player_count < MIN_PLAYERS:
+        except Exception as error:
+            detection_errors += 1
 
-        one_player += 1
-        continue
+            writer.writerow([
+                image_path.name, "ERROR",
+                str(error), person_count, blur_value
+            ])
 
+        # --------------------------------------
+        # PROGRESS
+        # --------------------------------------
 
-    # ======================================
-    # DUPLICATE / VERY SIMILAR FRAME
-    # ======================================
-
-    resized_current = cv2.resize(
-        gray,
-        (160, 90)
-    )
-
-    if previous_gray is not None:
-
-        resized_previous = cv2.resize(
-            previous_gray,
-            (160, 90)
-        )
-
-        difference = cv2.absdiff(
-            resized_current,
-            resized_previous
-        ).mean()
-
-        if difference < DIFFERENCE_THRESHOLD:
-
-            duplicates += 1
-            continue
-
-
-    # ======================================
-    # KEEP FRAME
-    # ======================================
-
-    output_path = os.path.join(
-        OUTPUT_FOLDER,
-        filename
-    )
-
-    shutil.copy2(
-        input_path,
-        output_path
-    )
-
-    previous_gray = gray
-
-    kept += 1
-
-
-    # ======================================
-    # PROGRESS
-    # ======================================
-
-    if (i + 1) % 500 == 0:
-
-        print(
-            f"Checked: {i + 1} | "
-            f"Kept: {kept} | "
-            f"No players: {no_players} | "
-            f"One player: {one_player} | "
-            f"Blurry: {blurry} | "
-            f"Duplicates: {duplicates}"
-        )
-
+        if i % PROGRESS_INTERVAL == 0 or i == total:
+            print(
+                f"Checked: {i}/{total} | "
+                f"Kept: {kept} | "
+                f"No people: {no_players} | "
+                f"One person: {one_player} | "
+                f"Blurry: {blurry} | "
+                f"Bad images: {bad_images} | "
+                f"Errors: {detection_errors}"
+            )
 
 # ==========================================
-# FINAL RESULT
+# FINAL SUMMARY
 # ==========================================
 
-print()
-print("==========================================")
-print("          CLEANING COMPLETE")
-print("==========================================")
+print("\n" + "=" * 45)
+print("             CLEANING COMPLETE")
+print("=" * 45)
 
-print("Original frames :", len(files))
-print("Frames kept     :", kept)
+print(f"Original frames : {total}")
+print(f"Frames kept     : {kept}")
 
-print()
-print("Removed because:")
-print("No players      :", no_players)
-print("Only one player :", one_player)
-print("Blurry          :", blurry)
-print("Duplicates      :", duplicates)
-print("Bad images      :", bad_images)
+print("\nRejected frames:")
+print(f"No people       : {no_players}")
+print(f"One person      : {one_player}")
+print(f"Blurry          : {blurry}")
+print(f"Unreadable      : {bad_images}")
+print(f"Errors          : {detection_errors}")
 
-print()
-print("Clean frames saved in:")
-print(OUTPUT_FOLDER)
+print(f"\nClean frames: {OUTPUT_FOLDER}")
+print(f"Full report : {REPORT_PATH}")
 
-print("==========================================")
+print("\nOriginal frames have NOT been deleted.")
+print("=" * 45)
